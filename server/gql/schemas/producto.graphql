@@ -1,0 +1,12 @@
+type Producto{
+	id: ID!
+	nombre: String
+	unidad_venta: String
+	precio: Int
+	idMarca: String
+	marca: Marca
+	cosa: String
+}
+type Query{
+	getProductos:[Producto!]!
+}

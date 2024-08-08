@@ -1,0 +1,11 @@
+type Marca{
+	id: ID!,
+	nombre: String
+	administrador: String
+	telefono: String
+}
+
+type Query{
+	getMarcas:[Marca!]!
+}
+
