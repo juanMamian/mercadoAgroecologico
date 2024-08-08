@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   apollo:{
     clients:{
       default:{
-          httpEndpoint: "https://:3000/api/graphql"
+          httpEndpoint: "https://mercadoagroecologico.vercel.app:3000/api/graphql"
       }
     }
   },
