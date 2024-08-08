@@ -18,6 +18,11 @@ const esquemaProducto = new mongoose.Schema({
 		minLength: 6,
 		maxLength: 30,
 	},
+	cantidadDisponible: {
+		type: Number,
+		default: 0,
+		min: 0
+	},
 	idMarca: { type: mongoose.Schema.Types.ObjectId, ref: 'Marca' }
 
 });

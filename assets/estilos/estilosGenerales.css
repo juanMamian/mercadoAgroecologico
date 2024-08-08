@@ -1,4 +1,29 @@
+:root {
+	--colorAccion: #56c7d2;
+}
 
-body{
+body {
 	font-size: 100%;
+	font-family: Amatic, Arial;
+	padding: 0px;
+	margin: 0px;
+
+	background-color: #f0f0f0;
+
+}
+
+@font-face {
+	font-family: "Amatic";
+	src: url(@/assets/fonts/Amatic_SC/AmaticSC-Regular.ttf);
+	font-style: normal;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url(@/assets/fonts/Poppins/Poppins-Light.ttf);
+	font-style: normal;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url(@/assets/fonts/Poppins/Poppins-Bold.ttf);
+	font-weight: bold;
 }
